@@ -22,6 +22,7 @@ This repository includes a custom AI skill designed to streamline applications. 
 **The AI will automatically:**
 1. Fetch and read the job description from the provided URL.
 2. Load your base resume and professional context from the `base/` directory.
-3. Draft a brand new, tailored Markdown resume and a custom cover letter directly in your workspace.
+3. **Analyze Gaps & Interview You**: Identify any requested skills or requirements in the job description that aren't documented in your professional context, and ask targeted questions to tease out your real experience.
+4. **Persist Learnings**: Update `base/Jeremy-Williams_Professional_Context.md` with your answers so future applications remember them automatically.
+5. **Draft Application Materials**: Draft a brand new tailored Markdown resume and custom cover letter into `applications/<company>/<role>/`.
 
-You can then organize the new files into the `applications/` folder, review them, and push them to this repository to keep a clean record of every application!
