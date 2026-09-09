@@ -9,8 +9,10 @@
 ## Tech Stack & Preferences
 *   **Primary Processing:** Apache Spark (Scala and PySpark). Datasets are too large for standard Pandas; requires distributed processing.
 *   **Ecosystem:** Databricks (Unity Catalog, Delta Tables), Apache Kafka, Apache Airflow.
+*   **Cloud Ecosystem:** Amazon Web Services (AWS - S3, EC2, Lambda, SNS, SQS). No hands-on Azure experience.
 *   **Language Comfort:** Highly proficient in Scala and SQL. Comfortable with Python/PySpark, but does not use Python daily for standard scripting (not highly proficient in native Python/Pandas).
-*   **What to avoid:** Do not claim deep expertise in MLOps, Model Lifecycle Management, or Feature Engineering. Avoid highlighting a past 3-day hackathon involving vector DBs/Langchain unless the role specifically asks for experimental exposure to RAG.
+*   **Observability & BI:** Deep experience with Grafana, Kibana, Databricks Dashboards, and AWS CloudWatch. Do not claim active expertise in Power BI or Tableau (built single dashboards years ago; non-recent).
+*   **What to avoid:** Do not claim deep expertise in MLOps, Model Lifecycle Management, or Feature Engineering. Do not claim hands-on Azure experience, active Power BI/Tableau expertise, or specific DBA tuning on SQL Server or PostgreSQL (experience is in Lakehouse/Spark optimization, MySQL, InfluxDB, Elasticsearch). Avoid highlighting a past 3-day hackathon involving vector DBs/Langchain unless the role specifically asks for experimental exposure to RAG.
 
 ## Deep Dive: Key Experience & Projects
 
