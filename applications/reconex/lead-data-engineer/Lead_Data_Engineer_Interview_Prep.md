@@ -45,25 +45,25 @@ Reconex is seeking a **hands-on, end-to-end Lead Data Engineer** to own their Da
 
 ---
 
-### Theme 2: Operational DBA & Database Modernization
+### Theme 2: Operational Databases vs. Data Lakehouse Boundaries (High-Integrity Positioning)
 
 #### Reconex Context:
 > *"Wear the DBA hat for our operational databases: schema design, index/query tuning, capacity planning... Plan and execute modernization strategy for our transactional databases."*
 
-#### Your Primary STAR Story: Legacy Integration & Schema Enforcement
-* **Situation:** At CardinalCommerce/Visa, legacy transactional databases suffered from schema drift, inefficient querying, and bottlenecks during peak payment processing volumes.
-* **Task:** Modernize transactional and log data flows while ensuring strict schema enforcement and zero downtime.
-* **Action:**
-  * Implemented schema-enforced streaming pipelines with Kafka and Spark, creating a structured buffer between operational sources and analytical downstream targets.
-  * Performed query optimization, index tuning, and database administration across relational engines (MySQL, MS SQL, InfluxDB).
-  * Led post-acquisition datacenter integration, co-locating legacy services into primary datacenters while modernizing storage layouts.
-* **Result:** Reduced mean-time-to-display for metrics and improved parallel task execution by 300% on Airflow workflows.
+#### Honest Positioning & Real Experience:
+* **The Reality:** You are **not** a traditional relational DBA. You have never created SSIS/SSRS packages, managed transactional database backups/failovers, or served as a dedicated DB administrator.
+* **Your Real Experience:** You have consulted on relational database projects from a Data Engineering perspective—specifically analyzing query execution plans, unblocking slow reads, and setting up Kafka connectors to extract operational data into AWS and the Databricks Lakehouse.
+* **Your True Admin Strength:** Your administration and governance expertise is centered on **Databricks Unity Catalog, Delta Lake storage layouts, and Lakehouse access control/RBAC**, rather than operational database engine maintenance.
 
 #### Expected Questions & High-Impact Answers:
 
-##### Q: "How do you balance being a hands-on Data Engineer with managing operational DBs?"
+##### Q: "How do you approach wearing the 'DBA hat' for operational databases?"
 > **Answer Strategy:**  
-> *"I treat operational databases as a critical tier of the overall data ecosystem. Good DBA practices—proper indexing, normalization/denormalization trade-offs, and query execution plan analysis—prevent operational bottlenecks before data ever touches the Lakehouse. When modernizing transactional DBs, I look at Change Data Capture (CDC) into Delta Lake so operational queries don't get impacted by heavy analytical reads."*
+> *"I want to be upfront: I am a Data Engineer who bridges operational databases with the Lakehouse, rather than a traditional relational DBA. I don't build SSIS packages or manage DB failover clusters. My experience with operational databases (MySQL, MS SQL) comes from an ingestion and integration standpoint—analyzing execution plans to unblock slow extraction queries, designing schemas for analytical cleanliness, and configuring Kafka connectors to get data efficiently into AWS and Delta Lake. My primary administration strength is managing Databricks Unity Catalog, Delta Lake storage layouts, and Lakehouse governance."*
+
+##### Q: "How would you approach modernizing our transactional databases?"
+> **Answer Strategy:**  
+> *"From a Data Engineering standpoint, modernizing transactional databases means decoupling analytical reporting from operational DBs. I focus on implementing Change Data Capture (CDC) via Kafka or Databricks connectors to stream transactional events directly into Delta Lake Bronze tables. This offloads heavy analytical queries, index bloat, and reporting stress from the operational systems while giving business users fast, governed access in the Lakehouse."*
 
 ---
 

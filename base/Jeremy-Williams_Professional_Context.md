@@ -12,7 +12,8 @@
 *   **Cloud Ecosystem:** Amazon Web Services (AWS - S3, EC2, Lambda, SNS, SQS). No hands-on Azure experience.
 *   **Language Comfort:** Highly proficient in Scala and SQL. Comfortable with Python/PySpark, but does not use Python daily for standard scripting (not highly proficient in native Python/Pandas).
 *   **Observability & BI:** Deep experience with Grafana, Kibana, Databricks Dashboards, and AWS CloudWatch. Do not claim active expertise in Power BI or Tableau (built single dashboards years ago; non-recent).
-*   **What to avoid:** Do not claim deep expertise in MLOps, Model Lifecycle Management, or Feature Engineering. Do not claim hands-on Azure experience, active Power BI/Tableau expertise, or specific DBA tuning on SQL Server or PostgreSQL (experience is in Lakehouse/Spark optimization, MySQL, InfluxDB, Elasticsearch). Avoid highlighting a past 3-day hackathon involving vector DBs/Langchain unless the role specifically asks for experimental exposure to RAG.
+*   **Operational DB vs. Data Lake Boundary:** Jeremy is NOT a traditional relational DBA. He has analyzed query execution plans and consulted on DB projects, but strictly from the perspective of enabling Kafka connectors, extracting data, and landing it in AWS/Data Lake. Never created SSIS/SSRS packages or managed transactional DB backups/HA. His platform administration expertise is in Databricks Unity Catalog, Delta Lake governance, and Lakehouse architecture.
+*   **What to avoid:** Do not claim deep expertise in MLOps, Model Lifecycle Management, or Feature Engineering. Do not claim traditional DBA capabilities (SSIS/SSRS packages, transactional DB administration, HA/backup management). Do not claim hands-on Azure experience or active Power BI/Tableau expertise. Avoid highlighting a past 3-day hackathon involving vector DBs/Langchain unless the role specifically asks for experimental exposure to RAG.
 
 ## Deep Dive: Key Experience & Projects
 
