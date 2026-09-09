@@ -15,6 +15,7 @@ Reconex is seeking a **hands-on, end-to-end Lead Data Engineer** to own their Da
 2. **Databricks & Big Data Mastery:** You have 10+ years of DE experience managing massive-scale Spark/Delta Lake ecosystems (handling 10 billion daily records / 2TB at Visa) using Medallion Architecture and Unity Catalog.
 3. **Enterprise FinOps Champion:** You cut AWS/Databricks spend at Visa by **35% ($1.5M/year)** via cluster right-sizing, S3 storage tiering, and dataset cleanup. Reconex specifically mandates managing platform cost and cluster sizing.
 4. **Bridging the Domain Gap (Fintech → Freight/Logistics):** Freight intelligence relies heavily on shipment events, carrier tracking, and invoice audit/reconciliation. You bring deep expertise in high-throughput transactional logging, financial data accuracy, and schema-enforced streaming from Visa/CardinalCommerce.
+5. **Multi-Engine Platform Breadth (Elasticsearch, Kibana & Data Democratization):** Your expertise spans beyond Databricks. You have administered and scaled **Elasticsearch and InfluxDB clusters** for real-time log search and operational observability, and personally led **40+ training sessions** for Kibana and Databricks—managing RBAC for ~600 users across Product, Security, and Ops.
 
 ---
 
@@ -142,6 +143,32 @@ Reconex is seeking a **hands-on, end-to-end Lead Data Engineer** to own their Da
 #### 3. BI Tooling (Power BI / Tableau vs. Grafana / Kibana)
 * **Question:** *"How do you approach building customer-facing analytics and reports in tools like Power BI or Tableau?"*
 * **Response:** *"My primary dashboarding experience is in Grafana, Kibana, Databricks Dashboards, and CloudWatch—giving engineers and stakeholders real-time visibility into system metrics and data flows. Rather than focusing on front-end BI formatting in Tableau or Power BI, my strength is modeling and publishing high-performance, validated Gold Delta tables so product and BI teams can seamlessly build any visualization they need."*
+
+---
+
+### Theme 7: Multi-Engine Platform Breadth — Elasticsearch, Kibana & Data Democratization
+
+#### Reconex Context:
+> *"Model data for reporting and partner with product and engineering on customer-facing analytics and dashboards... establish observability and alerting... communicating clearly with non-technical stakeholders."*
+
+#### Your Primary STAR Story: Scaling Elasticsearch/Kibana & Leading 40+ Training Sessions
+* **Situation:** At Visa and CardinalCommerce, handling massive unstructured log streams required sub-second searchability during operational incidents, alongside self-service data access for 600+ cross-functional users (Product, Security, Ops).
+* **Task:** Administer Elasticsearch and Kibana clusters to complement the core Spark/Databricks Lakehouse, while enabling cross-functional teams to query logs and build dashboards independently.
+* **Action:**
+  * **Cluster Administration:** Administered and scaled multi-node Elasticsearch, InfluxDB, and Kafka clusters to ingest, index, and monitor application log streams.
+  * **Unified Observability:** Integrated Telegraf, InfluxDB, and Grafana/Kibana to provide a single pane of glass view into pipeline health and system metrics.
+  * **Data Democratization & RBAC:** Enforced role-based access controls across Kibana and Unity Catalog (~600 users), and personally organized and led **40+ hands-on training sessions** to teach cross-functional users how to leverage Kibana and Databricks.
+* **Result:** Drastically lowered Mean Time to Resolution (MTTR) during pipeline incidents, eliminated data access bottlenecks, and empowered non-technical stakeholders to perform self-service analytics.
+
+#### Expected Questions & High-Impact Answers:
+
+##### Q: "How do you decide when to use Elasticsearch/Kibana versus a Lakehouse engine like Databricks?"
+> **Answer Strategy:**  
+> *"Databricks Lakehouse is my go-to engine for heavy analytical processing, batch/micro-batch ETL, and long-term Delta Lake storage. However, for instant, full-text log search, active stack trace debugging, and real-time operational dashboarding during production incidents, Elasticsearch and Kibana are unmatched. Having administered both, I use Elasticsearch/Kibana for sub-second log indexing and operational alerting, while feeding processed metrics into Databricks Delta tables for long-term trend analysis."*
+
+##### Q: "How do you partner with non-technical stakeholders to democratize data access?"
+> **Answer Strategy:**  
+> *"Building great data infrastructure is only half the battle—people need to know how to use it safely. At Visa, I managed RBAC in Kibana and Unity Catalog for ~600 users across Product, Security, and Ops. To ensure teams could actually use the platform, I organized and led over 40 small-group training sessions on Kibana and Databricks. This empowered non-technical users to build their own dashboards and query data independently while maintaining strict governance."*
 
 ---
 
