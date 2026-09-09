@@ -126,7 +126,7 @@ Reconex is seeking a **hands-on, end-to-end Lead Data Engineer** to own their Da
 | **Customer-Facing Dashboards** | Kibana, Grafana, and Databricks dashboards built for ~600 internal users. |
 
 #### Pitching Your Domain Adaptability:
-> *"While my background is in financial transaction processing and big data platforms at Visa and CardinalCommerce, data patterns in freight intelligence—shipment lifecycles, carrier status updates, and invoice audits—are structurally identical to financial event streams and transaction clearing pipelines. Both demand zero data loss, strict schema enforcement, auditability, and real-time reconciliation. I learn business domain rules very quickly, and my core engineering foundation in Databricks, Spark, and operational DBs allows me to deliver value on day one."*
+> *"While my background is in financial transaction processing and big data platforms at Visa and CardinalCommerce, data patterns in freight intelligence—shipment lifecycles, carrier status updates, and invoice audits—are structurally identical to financial event streams and transaction clearing pipelines. Both demand zero data loss, strict schema enforcement, auditability, and real-time reconciliation. I learn business domain rules very quickly, and my core engineering foundation in Databricks, Spark, and big data streaming platforms allows me to deliver value on day one."*
 
 ---
 
@@ -138,7 +138,7 @@ Reconex is seeking a **hands-on, end-to-end Lead Data Engineer** to own their Da
 
 #### 2. Relational DBA Tuning (SQL Server / PostgreSQL)
 * **Question:** *"What is your experience tuning operational SQL Server or PostgreSQL databases?"*
-* **Response:** *"My DBA experience focuses on high-scale Lakehouse/Delta Lake optimization (Spark tuning, Z-Ordering, partitioning, cluster right-sizing) along with operational engines like MySQL, InfluxDB, and Elasticsearch. While I haven't done deep engine-internal tuning on Postgres or SQL Server, I bring solid SQL fundamentals, schema design, and Change Data Capture (CDC) design to bridge operational DBs with the Lakehouse."*
+* **Response:** *"My platform administration experience focuses on high-scale Lakehouse/Delta Lake optimization (Spark tuning, Z-Ordering, partitioning, cluster right-sizing) and distributed data stores (Kafka, Elasticsearch, InfluxDB). While I haven't done deep engine-internal tuning on Postgres or SQL Server, I bring solid SQL fundamentals, schema design, and ingestion patterns to bridge source systems with the Lakehouse."*
 
 #### 3. BI Tooling (Power BI / Tableau vs. Grafana / Kibana)
 * **Question:** *"How do you approach building customer-facing analytics and reports in tools like Power BI or Tableau?"*
