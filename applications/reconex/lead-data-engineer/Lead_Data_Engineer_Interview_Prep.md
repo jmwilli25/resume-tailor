@@ -2,7 +2,7 @@
 
 **Candidate:** Jeremy Williams  
 **Role:** Lead Data Engineer @ Reconex (Solon, OH / Englewood, CO — Hybrid)  
-**Interviewers:** Anthony & Steven  
+**Interviewers:** Anthony & Stephen  
 
 ---
 
@@ -172,7 +172,7 @@ Reconex is seeking a **hands-on, end-to-end Lead Data Engineer** to own their Da
 
 ---
 
-## ❓ Refined List of Questions to Ask Anthony & Steven
+## ❓ Refined List of Questions to Ask Anthony & Stephen
 
 Organized logically for the interview flow:
 
