@@ -11,9 +11,9 @@ Hi Anthony and Stephen,
 
 Thank you both for taking the time to speak with me today about the Lead Data Engineer position at Reconex. I really enjoyed our conversation and getting a deeper look into how the team operates.
 
-Our discussion reinforced my enthusiasm for this role. I was particularly energized by our conversation around owning the Databricks lakehouse end-to-end, building reliable data pipelines for your freight intelligence products, and fostering an AI-forward culture with tools like Claude Code. 
+Our discussion reinforced my enthusiasm for this role. I was particularly energized by our conversation around owning the Databricks lakehouse from ingestion to insights, building reliable data pipelines for your freight intelligence products, and fostering an AI-forward culture with tools like Claude Code. 
 
-My background in architecting large-scale Spark and Delta Lake platforms, driving data quality, and empowering engineering teams with AI workflows aligns directly with what you are building at Reconex. I am very excited about the opportunity to step in, take end-to-end ownership of the data domain, and contribute to the team's growth.
+My background in architecting large-scale Spark and Delta Lake platforms, driving data quality, and empowering engineering teams with AI workflows aligns directly with what you are building at Reconex. I am very excited about the opportunity to step in, take complete ownership of the data domain, and contribute to the team's growth.
 
 Please let me know if you need any additional information or technical details from my end. I look forward to hearing about the next steps in the process!
 
