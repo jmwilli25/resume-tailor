@@ -70,6 +70,8 @@ Round 2 with Becky, Chris, and Megan is about **business impact, product velocit
   * **AI-Forward Velocity:** You leverage **Claude Code** to accelerate development, refactor code, and ship features faster, giving product teams shorter feedback loops.
 
 #### Key Questions Megan Will Likely Ask (And How to Respond):
+* **Q: "How do you prioritize competing requests from Product, Operations, and Engineering?"**
+  * *Response Strategy:* Walk through your **5-R Priority Framework** (**Relevance**, **Risk**, **Reputation**, **Revenue**, **Reciprocation**). Show how you balance strategic product roadmap features with operational data stability and risk reduction.
 * **Q: "How do you collaborate with Product to deliver new data features quickly?"**
   * *Response Strategy:* Explain your agile, contract-first approach. You work with Product to define the Gold table schema and data requirements upfront, use Claude Code to accelerate pipeline development, and deliver clean, pre-aggregated datasets so UI/BI engineers can build customer-facing dashboards without waiting on complex backend refactoring.
 * **Q: "How do you make data accessible to product managers and analysts?"**
@@ -78,6 +80,26 @@ Round 2 with Becky, Chris, and Megan is about **business impact, product velocit
 #### Strategic Questions to Ask Megan:
 1. *"What is the product vision for `tmsConnect™` and `TrueMark™` over the next year, and what new data capabilities or analytics features are customers asking for most?"*
 2. *"How do the product and data engineering teams currently collaborate when scoping new analytics features—is there a clear contract for Gold table schemas?"*
+
+---
+
+## ⚖️ Prioritization & Product Alignment — The 5-R Priority Framework
+
+When Megan (VP Product), Becky (COO), or Chris (VP Pricing) ask:  
+> *"How do you prioritize data engineering work when Product, Operations, and Carrier Relations are all asking for different features, pipeline enhancements, and bug fixes at the same time?"*
+
+### Your Secret Framework: The 5-Rs
+
+1. **Relevance:** Does this work directly align with Reconex's core strategic objectives (e.g., scaling `tmsConnect™`, expanding `TrueMark™`), or is it a high-value distraction?
+2. **Risk:** What is the potential downside, failure rate, or cost of error? (e.g., Will an unpatched ingestion bug corrupt carrier scorecards or cause customer SLA breaches?)
+3. **Reputation:** How will this impact trust, credibility, and brand equity with shippers, carrier partners, and internal stakeholders?
+4. **Revenue:** What is the direct financial yield, efficiency gain, or bottom-line value? (e.g., Does this feature protect carrier margins or reduce cloud infrastructure spend?)
+5. **Reciprocation:** What mutual value, relationship equity, or long-term partnership leverage does this build across Product, Ops, and Engineering?
+
+#### Practical Pitch Example:
+> *"When balancing requests across Product, Ops, and Carrier Relations, I don't just look at who shouted loudest or what's easiest to build. I evaluate requests using a 5-R framework: **Relevance** to strategic company goals, **Risk** of data failure, **Reputation** impact with customers, direct **Revenue** or efficiency yield, and long-term **Reciprocation** equity across teams.*  
+>  
+> *For example, if Product wants a new customer dashboard feature, but Carrier Relations is facing a high-risk rate tariff discrepancy that threatens carrier trust, Risk and Reputation dictate fixing the rate engine bug first while partnering with Product to define the Gold table contract for the next sprint."*
 
 ---
 
