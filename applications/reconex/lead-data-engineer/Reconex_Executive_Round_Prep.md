@@ -73,7 +73,10 @@ Round 2 with Becky, Chris, and Megan is about **business impact, product velocit
 * **Q: "How do you prioritize competing requests from Product, Operations, and Engineering?"**
   * *Response Strategy:* Walk through your **5-R Priority Framework** (**Relevance**, **Risk**, **Reputation**, **Revenue**, **Reciprocation**). Show how you balance strategic product roadmap features with operational data stability and risk reduction.
 * **Q: "How do you collaborate with Product to deliver new data features quickly?"**
-  * *Response Strategy:* Explain your agile, contract-first approach. You work with Product to define the Gold table schema and data requirements upfront, use Claude Code to accelerate pipeline development, and deliver clean, pre-aggregated datasets so UI/BI engineers can build customer-facing dashboards without waiting on complex backend refactoring.
+  * *Response Strategy:* Explain your partnership approach combining a **rapid "walking skeleton"** with an **agile, contract-first methodology**:
+    * **Rapid "Walking Skeleton":** Start by building an end-to-end tiny slice of the data flow (from raw ingestion to a minimal Gold table & UI mockup) to immediately validate pipeline connectivity, test product assumptions, and give Product and UI teams a working prototype to interact with on day one.
+    * **Contract-First Gold Schema:** Lock in the Gold table schema contract with Product early so UI and BI engineers can develop customer-facing dashboards in parallel without being blocked by backend logic.
+    * **AI-Accelerated Iteration:** Leverage **Claude Code** to rapidly build out complex business logic, edge case handling, transformations, and automated test suites, scaling the walking skeleton into a production-hardened platform.
 * **Q: "How do you make data accessible to product managers and analysts?"**
   * *Response Strategy:* Highlight your experience establishing self-service analytics, Databricks Unity Catalog governance, and conducting hands-on training sessions so product teams can explore data independently and safely.
 

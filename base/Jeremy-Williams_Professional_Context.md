@@ -7,6 +7,7 @@
 *   **Key Strength:** Bridging the gap between raw, messy data and the high-quality datasets that AI/Data Science teams rely on. Jeremy builds the *infrastructure* for AI, rather than the models themselves.
 *   **Ground-Up Builder / Lean Team Ownership:** Proven experience building data infrastructure from scratch (e.g., at CardinalCommerce, provisioning AWS servers and standing up Airflow & Kafka clusters from zero). Comfortable operating as a one-person data team with complete end-to-end ownership.
 *   **Prioritization Framework (5-Rs):** Evaluates and balances competing cross-functional data requests across Product, Ops, and Engineering using the 5-R Priority Framework (**Relevance**, **Risk**, **Reputation**, **Revenue**, **Reciprocation**).
+*   **Product Delivery Methodology:** Partners with Product using a rapid "walking skeleton" approach (building a thin end-to-end prototype from raw ingestion to Gold schema/UI on day one) combined with an agile, contract-first schema definition and AI-accelerated (Claude Code) pipeline hardening.
 
 ## Tech Stack & Preferences
 *   **Primary Processing:** Apache Spark (Scala and PySpark). Datasets are too large for standard Pandas; requires distributed processing.
